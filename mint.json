@@ -25,12 +25,7 @@
     "name": "Get Started",
     "url": "https://sensai.hyperverge.org/"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "tabs": [],
   "anchors": [
     {
       "name": "Repository",
@@ -66,14 +61,6 @@
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
       ]
     }
   ],
