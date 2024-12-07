@@ -18,12 +18,12 @@
   "topbarLinks": [
     {
       "name": "Join Community",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://chat.whatsapp.com/LmiulDbWpcXIgqNK6fZyxe"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get Started",
+    "url": "https://sensai.hyperverge.org/"
   },
   "tabs": [
     {
@@ -33,19 +33,19 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Repository",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://gitlab.com/hvacademy/sensai-ai/"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "whatsapp",
+      "url": "https://chat.whatsapp.com/LmiulDbWpcXIgqNK6fZyxe"
     },
     {
-      "name": "Blog",
+      "name": "Roadmap",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://hyperverge.notion.site/fa1dd0cef7194fa9bf95c28820dca57f?v=ec52c6a716e94df180dcc8ced3d87610"
     }
   ],
   "navigation": [
@@ -78,8 +78,6 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "github": "https://gitlab.com/hvacademy/sensai-ai"
   }
 }
