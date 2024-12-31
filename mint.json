@@ -22,7 +22,7 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Started",
+    "name": "Open SensAI",
     "url": "https://sensai.hyperverge.org/"
   },
   "tabs": [],
@@ -45,22 +45,17 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Introduction",
       "pages": [
-        "introduction",
+        "overview",
         "quickstart",
-        "development"
+        "key_concepts"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Guides",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "guides/coming_soon"
       ]
     }
   ],
