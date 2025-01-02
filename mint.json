@@ -49,7 +49,18 @@
       "pages": [
         "overview",
         "quickstart",
-        "key_concepts"
+        "glossary"
+      ]
+    },
+    {
+      "group": "Key Concepts",
+      "pages": [
+        "key_concepts/courses",
+        "key_concepts/tasks",
+        "key_concepts/milestones",
+        "key_concepts/tags",
+        "key_concepts/cohorts",
+        "key_concepts/organizations"
       ]
     },
     {
