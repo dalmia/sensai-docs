@@ -1,12 +1,16 @@
-# Mintlify Starter Kit
+# SensAI docs
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+[SensAI](https://sensai.hyperverge.org/) is an open-source, AI-powered Learning Management System (LMS) which enables educators to create their own Coursera-style structured courses with the help of AI while serving as a tutor that offers real-time feedback to learners, helping them improve through personalized coaching that encourages them to think for themselves instead of giving away the answers. Teachers get access to detailed learning data at the level of each learner along with AI-generated insights to better understand and support their learners.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+Our mission is to make quality education accessible to everyone everywhere in the world.
+
+To get started with using SensAI, please refer to our [Documentation](https://docs.sensai.hyperverge.org/overview) which explains all the key features of SensAI along with demo videos and a step-by-step guide for common use cases.
+
+Our public roadmap is live here. Go check it out and let us know what you think we should build next!
+
+SensAI is open-source. If you want to contribute to SensAI, please look at the `Contributing` section in the `README` of the [repository](https://gitlab.com/hvacademy/sensai-ai).
+
+We are building a community of creators, builders, teachers, learners, parents, entrepreneurs, non-profits and volunteers who are excited about the future of AI and education. If you identify as one and want to be part of it, consider [joining our community](https://chat.whatsapp.com/LmiulDbWpcXIgqNK6fZyxe).
 
 ### Development
 
@@ -16,7 +20,7 @@ Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview th
 npm i -g mintlify
 ```
 
-Run the following command at the root of your documentation (where mint.json is)
+Run the following command at the root of your documentation (where `mint.json` is)
 
 ```
 mintlify dev
@@ -24,9 +28,9 @@ mintlify dev
 
 ### Publishing Changes
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+Pushing changes to the `main` branch will automatically publish them.
 
-#### Troubleshooting
+### Troubleshooting
 
 - Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
 - Page loads as a 404 - Make sure you are running in a folder with `mint.json`
