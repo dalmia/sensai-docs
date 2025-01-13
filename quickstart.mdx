@@ -3,12 +3,12 @@ title: Quickstart
 description: 'Create a course and watch SensAI in action'
 ---
 
-## Create a course
+## Add your OpenAI API key
 
-Create a cohort, add learners to it, create a course, add tasks to it and group the tasks under a milestone. 
+SensAI uses OpenAI (the company that created ChatGPT) for its AI capabilities. You need to add your OpenAI API key to SensAI to link your OpenAI account to SensAI. OpenAI charges money for every API call we make. This way you can manage your API usage and costs through your OpenAI account.
 
 <AccordionGroup>
-<Accordion icon="gear" title="Open the admin panel">
+  <Accordion icon="gear" title="Open the admin panel">
     Open the admin panel by clicking on the `Admin Panel` button in the sidebar.
     <video
       width="100%"
@@ -16,10 +16,40 @@ Create a cohort, add learners to it, create a course, add tasks to it and group 
       controls
       title="Opening the admin panel"
     >
-      <source src="./videos/quickstart_1-admin_panel.mp4" type="video/mp4" />
+      <source src="./videos/quickstart-1-admin_panel.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </Accordion>
+  <Accordion icon="gear" title="Get your OpenAI API key">
+    Open the admin panel by clicking on the `Admin Panel` button in the sidebar.
+    <video
+      width="100%"
+      height="315"
+      controls
+      title="Getting your OpenAI API key"
+    >
+      <source src="./videos/quickstart-2-get_key.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </Accordion>
+  <Accordion icon="gear" title="Add your API key">
+    Open the admin panel by clicking on the `Admin Panel` button in the sidebar.
+    <video
+      width="100%"
+      height="315"
+      controls
+      title="Adding your API key"
+    >
+      <source src="./videos/quickstart-3-add_key.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </Accordion>
+</AccordionGroup>
+## Create a course
+
+Create a cohort, add learners to it, create a course, add tasks to it and group the tasks under a milestone. 
+
+<AccordionGroup>
   <Accordion icon="users" title="Create a cohort">
     The course that you will create later will be added to this cohort. A cohort can have learners, mentors and groups. Groups are a way to organize learners. Learn more in the [Glossary](/glossary) section.
     <video
@@ -28,7 +58,7 @@ Create a cohort, add learners to it, create a course, add tasks to it and group 
       controls
       title="Creating a cohort"
     >
-      <source src="./videos/quickstart_2-create_cohort.mp4" type="video/mp4" />
+      <source src="./videos/quickstart-4-create_cohort.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </Accordion>
@@ -40,7 +70,7 @@ Create a cohort, add learners to it, create a course, add tasks to it and group 
       controls
       title="Adding a learner to the cohort"
     >
-      <source src="./videos/quickstart_3-add_member.mp4" type="video/mp4" />
+      <source src="./videos/quickstart-4.1-add_learner.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </Accordion>
@@ -52,7 +82,7 @@ Create a cohort, add learners to it, create a course, add tasks to it and group 
       controls
       title="Creating a course"
     >
-      <source src="./videos/quickstart_4-add_course.mp4" type="video/mp4" />
+      <source src="./videos/quickstart-5-create_course.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </Accordion>
@@ -66,7 +96,7 @@ Create a cohort, add learners to it, create a course, add tasks to it and group 
       controls
       title="Creating a cohort"
     >
-      <source src="./videos/quickstart_5-add_task.mp4" type="video/mp4" />
+      <source src="./videos/quickstart-6-create_tasks.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </Accordion>
@@ -78,7 +108,7 @@ Create a cohort, add learners to it, create a course, add tasks to it and group 
       controls
       title="Creating a milestone"
     >
-      <source src="./videos/quickstart_6-add_milestone.mp4" type="video/mp4" />
+      <source src="./videos/quickstart-8-create_milestone.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </Accordion>
@@ -90,7 +120,7 @@ Create a cohort, add learners to it, create a course, add tasks to it and group 
       controls
       title="Grouping tasks under a milestone"
     >
-      <source src="./videos/quickstart_7-group_tasks.mp4" type="video/mp4" />
+      <source src="./videos/quickstart-9-assign_milestone.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </Accordion>
@@ -100,9 +130,30 @@ Phew! That was a lot of work. Congratulations! You have created your first cours
 
 If you go back to your home page now, you will see the course you created along with the tasks grouped under the milestone you created.
 
-<img src="./images/quickstart_course_created.png" alt="Home page" />
+<video
+  width="100%"
+  height="315"
+  controls
+  title="Course created"
+>
+  <source src="./videos/quickstart-10-course_complete.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 ## SensAI in action
+
+<Accordion icon="book" title="Reading Material">
+  The learner can simply read the content given and mark it as complete.
+  <video
+    width="100%"
+    height="315"
+    controls
+    title="Reading Material type task"
+  >
+    <source src="./videos/quickstart-11-task_read.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</Accordion>
 
 `Before`: When a learner attempts a question, they are simply told whether their response is correct or not. If they are feeling stuck, they need to find someone who can help them understand where they went wrong.
 
@@ -113,24 +164,28 @@ If you go back to your home page now, you will see the course you created along 
   controls
   title="Question type task"
 >
-  <source src="./videos/quickstart_9-task_question.mp4" type="video/mp4" />
+  <source src="./videos/quickstart-12-task_question.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-<Accordion icon="book" title="Reading Material">
-  The learner can simply read the content given and mark it as complete.
-  <video
-    width="100%"
-    height="315"
-    controls
-    title="Reading Material type task"
-  >
-    <source src="./videos/quickstart_8-task_read.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+
+## Analytics
+
+You can see the analytics and usage for your course from the `Analytics` section in the admin panel.
+
+<video
+  width="100%"
+  height="315"
+  controls
+  title="Analytics"
+>
+  <source src="./videos/quickstart-13-analytics.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<Accordion icon="book" title="AI Insights">
+  Coming soon!
 </Accordion>
-
-
 
 
 ## Next steps
