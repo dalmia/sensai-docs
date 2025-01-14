@@ -1,5 +1,169 @@
 ---
 title: Tasks
 ---
+Tasks are the units of work that learners will complete. They are assigned to one or more courses. There are two types of tasks: `Reading Material` and `Question`. 
 
-Coming soon!
+We will understand both the task types and walk through all the features of the task creator in this page.
+
+# Reading Material
+
+Courses typically consist of both learning content and assessment. `Reading Material` tasks are used to add learning content to a course. You can add any material that you want to be read by the learner before they take an assessment as a `Reading Material` task.
+
+<video
+    width="100%"
+    height="315"
+    controls
+    title="Creating a reading material task"
+>
+    <source src="../videos/tasks-1-create_reading.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
+# Question
+
+`Question` tasks are used to assess the learner's knowledge. You will notice that there are a lot of settings to configure the question. We will walk through all of them later in this page.
+
+<video
+    width="100%"
+    height="315"
+    controls
+    title="Creating a question task"
+>
+    <source src="../videos/tasks-2-create_question.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
+## Provide custom context
+You can create tasks with context specific to your course that may not be publicly available and hence, AI won't have any existing knowledge of it. For example, you might have proprietary information that you want to assess the learner's knowledge on but which is not available on the internet. Once you provide the context, AI can generate the correct answer based on that context and give appropriate feedback as well.
+
+## Input type
+
+A task can accept user input in different formats.
+
+### Text
+
+If you set the input type to `Text`, the learner will be able to enter a text response. This has been covered in the videos above. For tasks with input type `Text`, you can set the `AI response type` to any of `Chat`, `Report` or `Exam` (explained in the [next section](#ai-response-type)).
+
+### Audio
+
+If you set the input type to `Audio`, the learner will be able to record their response in audio format. For tasks with input type `Audio`, you can only set the `AI response type` to `Report` (explained in the [next section](#ai-response-type)). This is because tasks with AI response type `Chat` and `Exam` require a reference answer to be provided and we currently don't support that for audio input. Instead, you can provide a scoring rubric using which the AI will provide a report to the learner as explained in the [Report](#report) section.
+
+### Coding
+
+If you set the input type to `Coding`, the learner will be able to write code in a language of your choice. For tasks with input type `Coding`, you can set the `AI response type` to any of `Chat`, `Report` or `Exam` (explained in the [next section](#ai-response-type)).
+
+## AI response type
+
+### Chat
+
+### Report
+
+### Exam
+
+# Assign Tags
+
+You can assign one or more [Tags](/key_concepts/tags) to a task while creating it. You can see the tags a task is assigned to in the `Tasks` page.
+
+<video
+    width="100%"
+    height="315"
+    controls
+    title="Assigning tags to a task"
+>
+    <source src="../videos/tag-2-task.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
+# Group under a milestone
+
+You can assign a [Milestone](/key_concepts/milestones) to a task either while creating a task or after a task is created. You can see the milestone a task is assigned to in the `Tasks` page.
+
+<AccordionGroup>
+  <Accordion icon="plus" title="While creating a task">
+    <video
+      width="100%"
+      height="315"
+      controls
+      title="Assigning a milestone to a task"
+    >
+      <source src="../videos/milestone-2-assign_create.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </Accordion>
+  <Accordion icon="pencil" title="After a task is created">
+    <video
+      width="100%"
+      height="315"
+      controls
+      title="Updating the milestone of a task"
+    >
+      <source src="../videos/quickstart-9-assign_milestone.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    Here is how you can assign a milestone to multiple tasks at once!
+    <video
+      width="100%"
+      height="315"
+      controls
+      title="Updating the milestone of multiple tasks"
+    >
+      <source src="../videos/milestone-3-bulk_edit.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </Accordion>
+</AccordionGroup>
+
+
+## Assign to courses
+
+You can add tasks to a course either while creating a task or after a task is created. You can see the tasks in a course in the course page.
+
+<AccordionGroup>
+  <Accordion icon="plus" title="While creating a task">
+    <video
+      width="100%"
+      height="315"
+      controls
+      title="Adding a task to a course while creating a task"
+    >
+      <source src="../videos/courses_6-add_task_create.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </Accordion>
+  <Accordion icon="pencil" title="After a task is created">
+    <video
+      width="100%"
+      height="315"
+      controls
+      title="Adding a task to a course after creating a task"
+    >
+      <source src="../videos/courses_7-add_task_edit.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </Accordion>
+</AccordionGroup>
+
+### Order tasks in a course
+
+<video
+    width="100%"
+    height="315"
+    controls
+    title="Changing the order of tasks in a course"
+>
+    <source src="../videos/courses_8-order_tasks.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
+# Bulk upload tasks
+
+## Using AI for creation
+
+### Generate answers
+
+> Single task
+
+> Multiple tasks
+
+### Generate tests (for coding questions)
