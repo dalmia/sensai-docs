@@ -36,6 +36,18 @@ Courses typically consist of both learning content and assessment. `Reading Mate
 ## Provide custom context
 You can create tasks with context specific to your course that may not be publicly available and hence, AI won't have any existing knowledge of it. For example, you might have proprietary information that you want to assess the learner's knowledge on but which is not available on the internet. Once you provide the context, AI can generate the correct answer based on that context and give appropriate feedback as well.
 
+
+<video
+    width="100%"
+    height="315"
+    controls
+    title="Question with custom context"
+>
+    <source src="../videos/tasks-3-custom_context.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
+
 ## Input type
 
 A task can accept user input in different formats.
@@ -46,19 +58,54 @@ If you set the input type to `Text`, the learner will be able to enter a text re
 
 ### Audio
 
-If you set the input type to `Audio`, the learner will be able to record their response in audio format. For tasks with input type `Audio`, you can only set the `AI response type` to `Report` (explained in the [next section](#ai-response-type)). This is because tasks with AI response type `Chat` and `Exam` require a reference answer to be provided and we currently don't support that for audio input. Instead, you can provide a scoring rubric using which the AI will provide a report to the learner as explained in the [Report](#report) section.
+If you set the input type to `Audio`, the learner will be able to record their response in audio format. For tasks with input type `Audio`, you can only set the `AI response type` to `Report` (explained in the [next section](#ai-response-type)). This is because tasks with `AI response type` as `Chat` and `Exam` require a reference answer to be provided and we currently don't support that for audio input. Instead, you can provide a scoring rubric using which AI will provide a report to the learner as explained in the [Report](#report) section.
+
+
+<video
+    width="100%"
+    height="315"
+    controls
+    title="Question with audio input"
+>
+    <source src="../videos/tasks-4-audio.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
 
 ### Coding
 
-If you set the input type to `Coding`, the learner will be able to write code in a language of your choice. For tasks with input type `Coding`, you can set the `AI response type` to any of `Chat`, `Report` or `Exam` (explained in the [next section](#ai-response-type)).
+If you set the input type to `Coding`, the learner will be able to write code in a code editor in a language that you choose during task creation. For tasks with input type `Coding`, you can set the `AI response type` to any of `Chat`, `Report` or `Exam` (explained in the [next section](#ai-response-type)).
+
+<video
+    width="100%"
+    height="315"
+    controls
+    title="Question with coding input"
+>
+    <source src="../videos/tasks-5-coding.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
+
+> Add tests
 
 ## AI response type
 
 ### Chat
+For tasks with `AI response type` as `Chat`, AI will act as a coach to the learner and ask them questions to nudge them to think for themselves instead of giving away the answers.
+
+These tasks require a reference answer to be provided that will be compared with the learner's answer to provide feedback. You can use AI to generate the reference answer if you don't one.
+
+You can set the `AI response type` to `Chat` for tasks with any input type.
 
 ### Report
+For tasks with `AI response type` as `Report`, AI will provide a report to the learner based on the scoring criteria provided by the educator.
+
+You can set the `AI response type` to `Report` for tasks with any input type. But tasks with input type `Audio` can only have `Report` as the `AI response type`.
 
 ### Exam
+For tasks with `AI response type` as `Exam`, AI will simply state if the learner's answer is correct or not without coaching them.
+
+You can set the `AI response type` to `Exam` for tasks with any input type.
 
 # Assign Tags
 
@@ -158,6 +205,8 @@ You can add tasks to a course either while creating a task or after a task is cr
 
 # Bulk upload tasks
 
+> different variants (tags vs not tags, answers given vs not, etc.)
+
 ## Using AI for creation
 
 ### Generate answers
@@ -167,3 +216,20 @@ You can add tasks to a course either while creating a task or after a task is cr
 > Multiple tasks
 
 ### Generate tests (for coding questions)
+
+## Editing tasks
+
+To edit one or more tasks, you need to first select the task (s) you want to edit.
+
+### Edit a task
+
+If you want to edit a single task, the task will be opened in edit mode. Apart from the task type, you can edit all the fields of the task.
+
+### Bulk edit tasks
+
+If you want to edit multiple tasks, a bulk edit form will open up. In bulk edit mode, you can edit the [Milestone](/key_concepts/milestones) and [Courses](/key_concepts/courses) that the tasks are assigned to.
+
+## Delete a task
+
+To delete one or more tasks, you can select the tasks you want to delete and click on the `Delete tasks` button.
+
