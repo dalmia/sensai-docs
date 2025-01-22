@@ -58,7 +58,9 @@ If you set the input type to `Text`, the learner will be able to enter a text re
 
 ### Audio
 
-If you set the input type to `Audio`, the learner will be able to record their response in audio format. For tasks with input type `Audio`, you can only set the `AI response type` to `Report` (explained in the [next section](#ai-response-type)). This is because tasks with `AI response type` as `Chat` and `Exam` require a reference answer to be provided and we currently don't support that for audio input. Instead, you can provide a scoring rubric using which AI will provide a report to the learner as explained in the [Report](#report) section.
+If you set the input type to `Audio`, the learner will be able to record their response in audio format. AI analyses a learner's speech to gather insights on their clarity, pronunciation, confidence, grammar and other aspects that you define at the time of task creation.
+
+For tasks with input type `Audio`, you can only set the `AI response type` to `Report` (explained in the [next section](#ai-response-type)). This is because tasks with `AI response type` as `Chat` and `Exam` require a reference answer to be provided and we currently don't support that for audio input. Instead, you can provide a scoring rubric using which AI will provide a report to the learner as explained in the [Report](#report) section.
 
 
 <video
@@ -85,37 +87,88 @@ If you set the input type to `Coding`, the learner will be able to write code in
     Your browser does not support the video tag.
 </video>
 
+We support the following coding languages:
 
-> Add tests
+- HTML
+- CSS
+- Javascript
+- NodeJS
+- Python
+- React
+- SQL
+
+You can select one or more compatible languages for a task. E.g. you can select `HTML`, `CSS` and `Javascript` as the coding languages for a task that requires the learner to use all of them.
+
+> Show preview
+
+> Add tests (+ generate)
 
 > Add section on user inputs for python
-
-> List of coding languages supported
-
-> generate tests
 
 ## AI response type
 
 ### Chat
 For tasks with `AI response type` as `Chat`, AI will act as a coach to the learner and ask them questions to nudge them to think for themselves instead of giving away the answers.
 
+<video
+  width="100%"
+  height="315"
+  controls
+  title="AI coach demo for chat response type"
+>
+  <source src="../videos/quickstart-12-task_question.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
 These tasks require a reference answer to be provided that will be compared with the learner's answer to provide feedback. You can use AI to generate the reference answer if you don't one.
+
+<video
+  width="100%"
+  height="315"
+  controls
+  title="Generate answer for task"
+>
+  <source src="../videos/task-response-type-chat-1.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 You can set the `AI response type` to `Chat` for tasks with any input type.
 
-> Generate answers
-
 ### Report
-For tasks with `AI response type` as `Report`, AI will provide a report to the learner based on the scoring criteria provided by the educator.
+For tasks with `AI response type` as `Report`, AI will provide a report to the learner based on the scoring criteria provided by you. Each scoring criterion is defined by 3 parameters:
+
+- `Name`: The name of the criterion.
+- `Description`: The description of the criterion. Here you can define the criteria that you want AI to assess the learner on.
+- `Score`: The score for the criterion displayed to the learner. You can set the maximum and minimum score for the criterion. AI will provide a score to the learner based on how well they have done on the criterion.
+
+<video
+  width="100%"
+  height="315"
+  controls
+  title="AI coach demo for report response type"
+>
+  <source src="../videos/task-report.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 You can set the `AI response type` to `Report` for tasks with any input type. But tasks with input type `Audio` can only have `Report` as the `AI response type`.
 
 ### Exam
 For tasks with `AI response type` as `Exam`, AI will simply state if the learner's answer is correct or not without coaching them.
 
-You can set the `AI response type` to `Exam` for tasks with any input type.
+<video
+  width="100%"
+  height="315"
+  controls
+  title="Question type task"
+>
+  <source src="../videos/task-exam.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
-> Mention generate answers
+Similar to [Chat](#chat), these tasks require a reference answer to be provided that will be compared with the learner's answer to provide feedback. You can use AI to generate the reference answer if you don't one.
+
+You can set the `AI response type` to `Exam` for tasks with any input type.
 
 # Assign Tags
 
