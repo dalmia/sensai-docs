@@ -92,6 +92,8 @@ If you set the input type to `Coding`, the learner will be able to write code in
 
 > List of coding languages supported
 
+> generate tests
+
 ## AI response type
 
 ### Chat
@@ -100,6 +102,8 @@ For tasks with `AI response type` as `Chat`, AI will act as a coach to the learn
 These tasks require a reference answer to be provided that will be compared with the learner's answer to provide feedback. You can use AI to generate the reference answer if you don't one.
 
 You can set the `AI response type` to `Chat` for tasks with any input type.
+
+> Generate answers
 
 ### Report
 For tasks with `AI response type` as `Report`, AI will provide a report to the learner based on the scoring criteria provided by the educator.
@@ -110,6 +114,8 @@ You can set the `AI response type` to `Report` for tasks with any input type. Bu
 For tasks with `AI response type` as `Exam`, AI will simply state if the learner's answer is correct or not without coaching them.
 
 You can set the `AI response type` to `Exam` for tasks with any input type.
+
+> Mention generate answers
 
 # Assign Tags
 
@@ -209,31 +215,67 @@ You can add tasks to a course either while creating a task or after a task is cr
 
 # Bulk upload tasks
 
-> different variants (tags vs not tags, answers given vs not, etc.)
+You can create multiple tasks at once by uploading a CSV file. If you choose to provide [Custom Context](#provide-custom-context), that context will be used for all the tasks. 
 
-## Using AI for creation
+The CSV file should have the following columns:
 
-### Generate answers
+- `Name`: The name of the task.
+- `Description`: The description of the task.
+- `Tags`: The tags to be assigned to the task (comma-separated, e.g. `tag1,tag2,tag3`)
 
-> Single task
+If the AI response type is set to [Exam](#exam) or [Chat](#chat), you can also provide a reference answer for each task by adding a `Answer` column. If you don't provide a reference answer, AI will generate answers for each task. You can review those answers and edit them if needed.
 
-> Multiple tasks
-
-### Generate tests (for coding questions)
+ <video
+  width="100%"
+  height="315"
+  controls
+  title="Bulk uploading tasks"
+>
+  <source src="../videos/task-bulk.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 ## Editing tasks
 
-To edit one or more tasks, you need to first select the task (s) you want to edit.
+<AccordionGroup>
+  <Accordion icon="pencil" title="Edit a task">
+    <video
+      width="100%"
+      height="315"
+      controls
+      title="Editing a task"
+    >
+      <source src="../videos/task-edit-1.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </Accordion>
+  <Accordion icon="pen-to-square" title="Bulk edit tasks">
+    If you want to edit multiple tasks, a bulk edit form will open up. In bulk edit mode, you can edit the [Milestone](/key_concepts/milestones) and [Courses](/key_concepts/courses) that the tasks are assigned to.
 
-### Edit a task
+    <video
+      width="100%"
+      height="315"
+      controls
+      title="Bulk editing tasks"
+    >
+      <source src="../videos/task-edit-2.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </Accordion>
+</AccordionGroup>
 
-If you want to edit a single task, the task will be opened in edit mode. Apart from the task type, you can edit all the fields of the task.
-
-### Bulk edit tasks
-
-If you want to edit multiple tasks, a bulk edit form will open up. In bulk edit mode, you can edit the [Milestone](/key_concepts/milestones) and [Courses](/key_concepts/courses) that the tasks are assigned to.
 
 ## Delete a task
 
 To delete one or more tasks, you can select the tasks you want to delete and click on the `Delete tasks` button.
 
+
+<video
+  width="100%"
+  height="315"
+  controls
+  title="Deleting a task"
+>
+  <source src="../videos/task-delete-1.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
