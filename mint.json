@@ -53,20 +53,14 @@
       ]
     },
     {
-      "group": "Key Concepts",
-      "pages": [
-        "key_concepts/courses",
-        "key_concepts/tasks",
-        "key_concepts/milestones",
-        "key_concepts/tags",
-        "key_concepts/cohorts",
-        "key_concepts/organizations"
-      ]
-    },
-    {
       "group": "Guides",
       "pages": [
-        "guides/coming_soon"
+        "guides/courses",
+        "guides/tasks",
+        "guides/milestones",
+        "guides/tags",
+        "guides/cohorts",
+        "guides/organizations"
       ]
     }
   ],
