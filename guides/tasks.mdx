@@ -33,19 +33,81 @@ Courses typically consist of both learning content and assessment. `Reading Mate
     Your browser does not support the video tag.
 </video>
 
-## Provide custom context
-You can create tasks with context specific to your course that may not be publicly available and hence, AI won't have any existing knowledge of it. For example, you might have proprietary information that you want to assess the learner's knowledge on but which is not available on the internet. Once you provide the context, AI can generate the correct answer based on that context and give appropriate feedback as well.
+## Use AI to generate tasks
 
+SensAI lets you to generate tasks using AI. You can give a text prompt or simply speak what you want the task to entail and AI will generate it for you. You can generate both reading materials and questions this way.
+
+### Give a text prompt
+
+Describe what you want the task to entail and AI will generate it for you. Here is an example of generating a reading material from a text prompt.
 
 <video
     width="100%"
     height="315"
     controls
-    title="Question with custom context"
+    title="Text prompt for reading material generation"
 >
-    <source src="../videos/tasks-3-custom_context.mp4" type="video/mp4" />
+    <source src="../videos/task-ai-generation-reading.mp4" type="video/mp4" />
     Your browser does not support the video tag.
 </video>
+
+### Speak it out
+
+You can also speak what you want the task to entail and AI will generate it for you. Here are a couple of examples of generating questions from an audio prompt.
+
+
+<AccordionGroup>
+  <Accordion icon="circle-check" title="Generate an objective question with a single correct answer">
+    <video
+        width="100%"
+        height="315"
+        controls
+        title="Generate an objective question with a single correct answer"
+    >
+        <source src="../videos/task-ai-generation-q1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+  </Accordion>
+  <Accordion icon="pen-to-square" title="Generate a subjective question with scoring criteria">
+    <video
+        width="100%"
+        height="315"
+        controls
+        title="Generate a subjective question with scoring criteria"
+    >
+        <source src="../videos/task-ai-generation-q2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+  </Accordion>
+</AccordionGroup>
+
+
+### Best practices for using AI
+A general rule of thumb is to be as specific as you can be about what the task should look like. AI does not work well if you  are vague. Give all the details that matter to you. Imagine AI as an intern working for you and think of all the instructions/details that you would need to give them to help them complete the task.
+
+A template for what you should specify is given below:
+
+- Specify the `Task Type`
+  - `Question` – A question or activity that requires a response
+  - `Reading Material` – Content for learners to read and understand
+- For `Reading Material`
+  - Topic – Clearly define what the learner should read about
+  - Length – Specify if it should be short, medium, or long
+  - Format – Outline structure (e.g., paragraphs, bullet points, examples)
+  - Other Considerations – Any nuances like complexity level, tone, or visuals
+- For `Question`
+  - Specify the question type
+    - `Objective` – Multiple-choice, true/false, fill-in-the-blank
+    - `Subjective` – Open-ended questions requiring a detailed response
+  - Input Format – Define how learners should answer (text, audio, code)
+  - AI role – Specify how AI should behave
+    - `Coach` – Ask questions to nudge the learner to think for themselves
+    - `Examiner` – Just say whether they got it right or wrong
+  - Answer & Evaluation
+    - `Objective` – Specify the correct answer(s) for automated grading or ask for the correct answer to be generated
+    - `Subjective` – Define evaluation criteria (e.g., clarity, grammar, confidence)
+
+
 
 
 ## Input type
@@ -393,4 +455,19 @@ To delete one or more tasks, you can select the tasks you want to delete and cli
 >
   <source src="../videos/task-delete-1.mp4" type="video/mp4" />
   Your browser does not support the video tag.
+</video>
+
+
+## Provide custom context
+You can create tasks with context specific to your course that may not be publicly available and hence, AI won't have any existing knowledge of it. For example, you might have proprietary information that you want to assess the learner's knowledge on but which is not available on the internet. Once you provide the context, AI can generate the correct answer based on that context and give appropriate feedback as well.
+
+
+<video
+    width="100%"
+    height="315"
+    controls
+    title="Question with custom context"
+>
+    <source src="../videos/tasks-3-custom_context.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
 </video>
